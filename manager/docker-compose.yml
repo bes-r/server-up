@@ -1,0 +1,33 @@
+# Docker Manager v2 — productie deploy
+# Kopieer .env.example naar .env en pas aan, daarna: docker compose up -d
+services:
+  docker-manager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-manager:latest
+    container_name: docker-manager
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/bin/docker:/usr/local/bin/docker:ro
+      - /usr/lib/docker/cli-plugins:/usr/lib/docker/cli-plugins:ro
+      - /usr/libexec/docker/cli-plugins:/usr/libexec/docker/cli-plugins:ro
+      - ${SSH_DIR:-~/.ssh}:/home/appuser/.ssh:ro
+      - ${BASE_DIR:-/opt/docker}:${BASE_DIR:-/opt/docker}
+      - ${COMPOSE_DIR:-.}:/compose:ro
+    ports:
+      - "${PORT:-5000}:5000"
+    group_add:
+      - "${DOCKER_GID:-999}"
+    environment:
+      - PORT=5000
+      - BASE_DIR=${BASE_DIR:-/opt/docker}
+      - CONFIG_PATH=${BASE_DIR:-/opt/docker}/manager-web.json
+      - COMPOSE_DIR=${COMPOSE_DIR:-.}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/api/docker/info')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s

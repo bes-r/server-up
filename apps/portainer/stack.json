@@ -1,0 +1,7 @@
+{
+  "name": "Portainer",
+  "description": "Docker container management UI",
+  "tags": ["management", "docker", "ui"],
+  "logo_url": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/portainer.png",
+  "color": "#13bef9"
+}
