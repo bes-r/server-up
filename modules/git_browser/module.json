@@ -1,0 +1,13 @@
+{
+  "id": "git_browser",
+  "author": "bes-r",
+  "name": "App Store",
+  "icon": "🏪",
+  "description": "Installeer docker stacks vanuit git repositories",
+  "version": "2.0.0",
+  "tags": [
+    "core",
+    "git",
+    "store"
+  ]
+}

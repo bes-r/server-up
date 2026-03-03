@@ -1,0 +1,12 @@
+{
+  "id": "audit_log",
+  "author": "bes-r",
+  "name": "Audit Log",
+  "icon": "📋",
+  "description": "Overzicht van alle uitgevoerde acties",
+  "version": "1.1.0",
+  "tags": [
+    "core",
+    "logging"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "projects",
+  "author": "bes-r",
+  "name": "Projecten",
+  "icon": "🗂️",
+  "description": "Beheer docker compose stacks in de library map",
+  "version": "1.2.0",
+  "tags": [
+    "core",
+    "docker"
+  ]
+}

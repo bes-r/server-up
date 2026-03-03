@@ -1,0 +1,12 @@
+{
+  "id": "language",
+  "author": "bes-r",
+  "name": "Taal",
+  "icon": "🌐",
+  "description": "Taalkeuze voor de interface",
+  "version": "1.0.0",
+  "tags": [
+    "core",
+    "i18n"
+  ]
+}

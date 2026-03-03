@@ -1,0 +1,9 @@
+{
+  "id": "system_info",
+  "name": "System Info",
+  "description": "CPU, geheugen en schijfruimte van de host",
+  "version": "1.0.0",
+  "author": "bes-r",
+  "icon": "📊",
+  "tags": ["monitoring", "system"]
+}

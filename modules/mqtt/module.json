@@ -1,0 +1,12 @@
+{
+  "id": "mqtt",
+  "author": "bes-r",
+  "name": "MQTT",
+  "icon": "📡",
+  "description": "Monitor en beheer een MQTT broker",
+  "version": "1.0.1",
+  "tags": [
+    "mqtt",
+    "monitoring"
+  ]
+}
