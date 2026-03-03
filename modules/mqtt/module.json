@@ -1,12 +1,9 @@
 {
   "id": "mqtt",
-  "author": "bes-r",
   "name": "MQTT",
-  "icon": "📡",
-  "description": "Monitor en beheer een MQTT broker",
+  "description": "Verbind met een MQTT broker, bekijk topics en publiceer berichten",
   "version": "1.0.1",
-  "tags": [
-    "mqtt",
-    "monitoring"
-  ]
+  "author": "bes-r",
+  "icon": "📡",
+  "tags": ["mqtt", "connections", "home-automation"]
 }

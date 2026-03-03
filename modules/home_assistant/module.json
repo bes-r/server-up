@@ -1,0 +1,9 @@
+{
+  "id": "home_assistant",
+  "name": "Home Assistant",
+  "description": "Koppel Server Up met Home Assistant via de REST API of MQTT",
+  "version": "1.0.0",
+  "author": "bes-r",
+  "icon": "🏠",
+  "tags": ["home-automation", "ha", "mqtt"]
+}
