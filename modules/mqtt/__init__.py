@@ -51,7 +51,7 @@ class MqttModule(ModuleBase):
             """Stuur een test melding naar Home Assistant via MQTT."""
             cfg = config.get()
             topic = f"{cfg.get('MQTT_TOPIC_BASE','server/alerts')}/test"
-            ok, msg = _publish(cfg, topic, "Docker Manager test melding")
+            ok, msg = _publish(cfg, topic, "Server Up test melding")
             return jsonify(ok=ok, msg=msg)
 
         return bp

@@ -1,6 +1,6 @@
 # Modules
 
-Python modules voor Docker Manager v2.
+Python modules voor Server Up v2.
 
 ## Structuur per module
 

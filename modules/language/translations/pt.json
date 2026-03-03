@@ -43,7 +43,7 @@
   "settings.theme.light": "Claro",
   "settings.add_source": "＋ Adicionar fonte",
   "settings.no_repos": "Nenhuma fonte adicionada.",
-  "settings.restart_required": "Reinicialização necessária: docker compose restart docker-manager",
+  "settings.restart_required": "Reinicialização necessária: docker compose restart server-up",
   "module_store.title": "Loja de módulos",
   "module_store.all": "Todos",
   "module_store.install_btn": "▶ Instalar",

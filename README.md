@@ -1,6 +1,6 @@
 # server-up 🐋
 
-Persoonlijke docker stacks en modules voor Docker Manager v2.
+Persoonlijke docker stacks en modules voor Server Up v2.
 
 ## Structuur
 
@@ -13,16 +13,16 @@ server-up/
 │   │   └── README.md
 │   └── ...
 │
-├── modules/                 # Python modules voor Docker Manager
+├── modules/                 # Python modules voor Server Up
 │   └── ...
 │
-└── manager/                 # Docker Manager v2 zelf
-    └── docker-compose.yml   # deploy instructies voor Docker Manager
+└── manager/                 # Server Up v2 zelf
+    └── docker-compose.yml   # deploy instructies voor Server Up
 ```
 
 ## Gebruik
 
-Docker Manager haalt automatisch de laatste versie op via git pull.
+Server Up haalt automatisch de laatste versie op via git pull.
 Stacks worden zichtbaar in de **App Store**.
 
 ## SSH Deploy Key

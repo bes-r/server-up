@@ -1,5 +1,5 @@
 """
-Language module — meertalige ondersteuning voor Docker Manager.
+Language module — meertalige ondersteuning voor Server Up.
 
 Biedt:
   - /api/i18n/available  → lijst van beschikbare talen
@@ -28,7 +28,7 @@ class LanguageModule(ModuleBase):
     MODULE_ID   = "language"
     MODULE_NAME = "Language"
     MODULE_ICON = "🌐"
-    MODULE_DESC = "Multi-language support for the Docker Manager UI"
+    MODULE_DESC = "Multi-language support for the Server Up UI"
     VERSION     = "1.0.0"
 
     TRANSLATIONS = {
